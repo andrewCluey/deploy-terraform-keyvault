@@ -10,6 +10,7 @@ variable "environment" {
 
 variable "rg_name" {
   type    = string
+  default = "rg-test"
 }
 
 variable "soft_delete_retention_days" {
@@ -21,4 +22,5 @@ variable "soft_delete_retention_days" {
 variable "kv_name" {
   type        = string
   description = "The name to assign to the Key Vault."
+  default = "kv-asc-00766"
 }
