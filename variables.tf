@@ -24,3 +24,9 @@ variable "kv_name" {
   description = "The name to assign to the Key Vault."
   default = "kv-asc-00766"
 }
+
+variable "tags" {
+  type        = map
+  default     = {}
+}
+
