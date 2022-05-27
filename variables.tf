@@ -12,7 +12,7 @@ variable "rg_name" {
   type    = string
 }
 
-variable "soft_delete_retention_days " {
+variable "soft_delete_retention_days" {
   type        = number
   description = "The number of days that soft deleted items should be retained"
   default     = 7
